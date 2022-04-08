@@ -3,7 +3,7 @@
 /**
  * main - print lowercase and upercase a-zA-Z using putchar
  * Return: Always 0 (Success)
- * */
+  */
 
 int main(void)
 {
