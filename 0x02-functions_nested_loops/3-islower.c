@@ -2,18 +2,18 @@
 
 /**
  * _is lower - checks for lowercase characters
+ * @c: takes in a character
  * Return: 1 if lowercase, 0 if uppercase
  */
 
 int _islower(int c)
 {
-	if (c >= 'a' && <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
 	else
 	{
-		retuen (0);
+		return (0);
 	}
-	_putchar('\n');
 }
