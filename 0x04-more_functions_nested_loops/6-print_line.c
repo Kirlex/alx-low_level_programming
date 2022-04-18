@@ -1,27 +1,19 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line in the terminal
- * @n: print int
- * Return: Always 0.
+ * print_numbers - prints 0123456789\n
+ *
+ * Return: void
  */
-void print_line(int n)
+
+
+void print_numbers(void)
 {
-	int i;
+	char c;
 
-	if (n > 0)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (i = 0; i < n; i++)
-		{
-			_putchar (95);
-		}
-
-		_putchar ('\n');
+		_putchar(c);
 	}
-
-	else
-	{
-		_putchar ('\n');
-	}
-
+	_putchar('\n');
 }
