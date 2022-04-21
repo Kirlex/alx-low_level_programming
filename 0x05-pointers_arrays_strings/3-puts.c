@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * _puts - prints a string to stdout
+ * _puts - prints a screen
  * @str: A pointer to an int that will be changed
- * 
+ *
  * Return: void which means our answer is correct
  */
 
