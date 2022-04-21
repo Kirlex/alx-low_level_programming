@@ -5,7 +5,6 @@
  * @s: string
  * Return: void
  */
-
 void rev_string(char *s)
 {
 	int i, j;
